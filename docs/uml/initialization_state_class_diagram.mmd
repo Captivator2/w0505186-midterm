@@ -1,0 +1,25 @@
+classDiagram
+class GameController{
+    +create()
+}
+
+class Player{
+    +create()
+}
+
+class Enemy{
+    +spawn()
+}
+
+class Maze{
+    +load()
+}
+
+class ScoreManager{
+    +initialize()
+}
+
+GameController --> Player
+GameController --> Enemy
+GameController --> Maze
+GameController --> ScoreManager
