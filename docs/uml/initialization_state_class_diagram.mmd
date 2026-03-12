@@ -7,19 +7,19 @@ class Player{
     +create()
 }
 
-class Enemy{
+class Defender{
     +spawn()
 }
 
-class Maze{
+class Field{
     +load()
 }
 
-class ScoreManager{
-    +initialize()
+class Score{
+    +reset()
 }
 
 GameController --> Player
-GameController --> Enemy
-GameController --> Maze
-GameController --> ScoreManager
+GameController --> Defender
+GameController --> Field
+GameController --> Score
